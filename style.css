@@ -1,0 +1,144 @@
+html, body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+figure img{
+	border-radius: 8px;
+	margin: 0px 0px 0px 15px; /* Отступы вокруг */
+	width: 170px;
+}
+figure img:hover{
+	border-radius: 8px;
+	margin: 0px 0px 0px 15px; /* Отступы вокруг */
+	width: 170px;
+	opacity:.25;
+}
+.header{
+	height: 50px;
+	box-shadow: 0 0 0 1px #D9D9D9;
+}
+.headWrap{
+	height: 50px;
+}
+.headLogo{
+	position: absolute;
+	width: 50px;
+	height: 40px;
+	background: url(image/logo_1.png);
+	margin: 5px 0 0 5px;
+	cursor: pointer;
+	transition: all .5s ease-in-out;
+}
+.headLogo:hover{
+	width: 50px;
+	height: 40px;
+	background: url(image/logo_2.png);
+	transform: rotate(360deg);
+}
+.headSearch{
+	position: absolute;
+	margin: 12px 0 0 70px;
+}
+.headSearchText{
+	position: absolute;
+	width: auto;
+	height: 20px;
+	background: #D9D9D9;
+	border-radius: 10px;
+}
+.headMenu{
+	float: right; 
+	margin: 6px 15px 0px 10px; /* Отступы вокруг */
+	font-size: 24pt;
+	color: grey;
+}
+.headMenu:hover{
+	float: right; 
+	margin: 6px 15px 0px 10px; /* Отступы вокруг */
+	font-size: 24pt;
+	color: grey;
+	background-color: #f0f0f0;
+	border-radius: 30px;
+}
+.headMessage{
+	width: 40px;
+	height: 40px;
+	float: right; 
+	margin: 0px 0px 0px 0px; /* Отступы вокруг верх низ право лево*/
+	background: url(image/messange.png);
+}
+.headMessage:hover{
+	width: 40px;
+	height: 40px;
+	float: right; 
+	margin: 0px 0px 0px 0px; /* Отступы вокруг верх низ право лево*/
+	background: url(image/messange.png);
+	background-color: #f0f0f0;
+	border-radius: 30px;
+}
+.headMenu2{
+	width: 40px;
+	height: 40px;
+	float: right; 
+	margin: 0px 10px 10px 10px; /* Отступы вокруг верх низ право лево*/
+	background: url(image/menu.png);
+}
+.headMenu2:hover{
+	width: 40px;
+	height: 40px;
+	float: right; 
+	margin: 0px 10px 10px 10px; /* Отступы вокруг верх низ право лево*/
+	background: url(image/menu.png);
+	background-color: #f0f0f0;
+	border-radius: 30px;
+}
+.backgroundPost { 
+	width: 250px; 
+	height: 100%; 
+	float: left; 
+}
+.sign {
+	float: left; 
+    border: 1px solid #333; /* Параметры рамки */
+    margin: 15px 5px 5px 5px; /* Отступы вокруг */
+    background: #f0f0f0; /* Цвет фона */ 
+	width: 200px;
+	border-radius: 8px;
+}
+.sign figcaption {
+    margin: 0px 0px 0px 5px; /* Отступы вокруг абзаца */
+}
+.example3 {
+    display:inline-block;   
+    position:relative;
+}
+.example_text:hover {
+    position:absolute;
+	opacity:1;
+    left:0;
+    bottom:0;
+    width:100%;
+    box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+    color:#fff;
+    padding:10px;
+    background-color:rgba(0,0,0,.3);  
+}
+.example_text {
+	display:inline-block;   
+    position:absolute;
+	opacity: 0;
+    left:0;
+    bottom:0;
+    width:100%;
+    box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+    color:#fff;
+    padding:10px;
+    background-color:rgba(0,0,0,.3);  
+}
